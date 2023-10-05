@@ -1,2 +1,25 @@
+.holder{
+	display:grid;
+	width:200px;
+	height:200px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	"a b"
+	"c d";
+}
+.item-1{
+	grid-area: a;
+}
+
+.item-2{
+	grid-area: b;
+}
+.item-3{
+	grid-area: c;
+}
+.item-4{
+	grid-area: d;
+}
 
 /* Your CSS Code here. */
